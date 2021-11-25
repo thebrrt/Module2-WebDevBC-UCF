@@ -16,6 +16,16 @@ body {
     font-size: 32px;
     padding-right: 1%;
     border-right: 3px solid #445876;
+    width: 10%;
+    text-align: right;
+}
+
+.section-container {
+    margin: 1% auto 0;
+    width: 80%;
+    display: flex;
+    color: #445876;
+    justify-items: space-evenly;
 }
 /* End Utility Rules */
 
@@ -80,14 +90,6 @@ nav a {
 /* End Jumbotron/Banner */
 
 /* Start About Me */
-#about-me {
-    margin: 1% auto 0;
-    width: 80%;
-    display: flex;
-    color: #445876;
-    justify-items: space-evenly;
-}
-
 .text-container {
     flex: 1;
 }
