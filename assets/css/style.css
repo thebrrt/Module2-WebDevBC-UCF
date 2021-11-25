@@ -1,3 +1,4 @@
+/* User Agent Reset */
 * {
     margin: 0px;
     padding: 0px;
@@ -7,7 +8,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+/* End User Agent Reset */
 
+/* Navigation/Header Bar */
 .top-bar {
     display: flex;
     background-color: #31343D;
@@ -22,11 +25,16 @@ body {
 }
 
 .top-bar h1 {
+    color: #312821;
     background-color: #92CCCD;
-    font-size: 32px;
+    font-size: 48px;
     font-weight: bold;
     text-align: right;
     padding: 10px 10px 10px 40px;
+}
+
+nav {
+    margin-top: 20px;
 }
 
 nav ul {
@@ -34,13 +42,36 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    margin-bottom: 25px;
 }
 
 nav ul li a {
     font-weight: lighter;
     font-size: 24px;
-    margin: 10px 15px;
+    margin: 0 15px;
     color: #92CCCD;
     border-bottom: 5px solid #92CCCD;
-    padding: 10px 15px;
+    padding: 0 15px 10px 15px;
+}
+/* Navigation/Header Bar End */
+.jumbo {
+    display: block;
+}
+
+.jumbo-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbo span {
+    color: #312821;
+    position: relative;
+    float: right;
+    bottom: 80px;
+    background-color: #92CCCD;
+    right: 45px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 15px;
 }
