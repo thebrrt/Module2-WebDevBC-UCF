@@ -1,4 +1,4 @@
-/* User Agent Reset */
+/* Start User Agent Reset */
 * {
     margin: 0px;
     padding: 0px;
@@ -7,10 +7,21 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #EDEEF6;
 }
 /* End User Agent Reset */
 
-/* Navigation/Header Bar */
+/* Start Utility Rules */
+.section-title {
+    color: #445876;
+    padding: 0 10px 0 0;
+    font-size: 32px;
+    text-align: right;
+    border-right: 3px solid #445876;
+}
+/* End Utility Rules */
+
+/* Start Navigation/Header Bar */
 .top-bar {
     display: flex;
     background-color: #31343D;
@@ -28,7 +39,6 @@ body {
     color: #312821;
     background-color: #92CCCD;
     font-size: 48px;
-    font-weight: bold;
     text-align: right;
     padding: 10px 10px 10px 40px;
 }
@@ -53,7 +63,9 @@ nav ul li a {
     border-bottom: 5px solid #92CCCD;
     padding: 0 15px 10px 15px;
 }
-/* Navigation/Header Bar End */
+/* End Navigation/Header Bar */
+
+/* Start Jumbotron/Banner */
 .jumbo {
     display: block;
 }
@@ -75,3 +87,32 @@ nav ul li a {
     font-weight: bold;
     padding: 15px;
 }
+/* End Jumbotron/Banner */
+
+/* Start About Me */
+#about-me {
+    display: flex;
+    color: #445876;
+    justify-content: center;
+}
+
+#about-me h2 {
+    width:30%;
+    font-size: 32px;
+    padding: 0 1% 0 0;
+    border-right: 3px solid #445876;
+    text-align: right;
+}
+
+.text-container {
+    width: 70%;
+    flex: 1;
+}
+
+.text-container p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding-left: 2.5%;
+}
+/* End About Me */
+
