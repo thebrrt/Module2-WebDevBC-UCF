@@ -25,19 +25,10 @@ html {
 }
 
 .section-title {
-    font-size: 32px;
     padding-right: 1%;
     border-right: 3px solid #445876;
     width: 10%;
     text-align: right;
-}
-
-.subtitle-work {
-    position: absolute;
-    padding: 10px 20px;
-    background-color: #92CCCD;
-    color: #32353E;
-    bottom: 10%;
 }
 
 .set-column {
@@ -68,7 +59,6 @@ html {
 .top-bar h1 {
     color: #312821;
     background-color: #92CCCD;
-    font-size: 48px;
     text-align: right;
     padding: 0.2% 0.5% 0.2% 3%;
 }
@@ -76,7 +66,6 @@ html {
 nav {
     width: 30%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -85,11 +74,11 @@ nav:last-child {
 }
 
 nav a {
-    font-weight: lighter;
     font-size: 24px;
+    font-weight: lighter;
     color: #92CCCD;
-    padding: 0 1.25%;
-    border-bottom: 5px solid #92CCCD;
+    padding: 0 1.25% 5px;
+    border-bottom: 4px solid #92CCCD;
 }
 /* End Navigation/Header Bar */
 
@@ -104,15 +93,14 @@ nav a {
     bottom: 10%;
     color: #312821;
     background-color: #92CCCD;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
-    padding: 15px;    
+    padding: 0.75%;    
 }
 /* End Jumbotron/Banner */
 
 /* Start About Me */
-
-.text-container p {
+.about-text p {
     line-height: 1.5;
     margin-bottom: 10px;
 }
@@ -172,6 +160,14 @@ nav a {
 .secondary:hover {
     opacity: 1;
 }
+
+.subtitle-work {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #92CCCD;
+    color: #32353E;
+    bottom: 10%;
+}
 /* End Work */
 
 /* Start Contact Me */
@@ -230,3 +226,76 @@ nav a {
     flex: 1;
 }
 /* End Resumé */
+
+/* Begin Media Queries */
+@media (max-width: 1024px) {
+    nav {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .section-title {
+        width: 100%;
+        text-align: center;
+        justify-self: center;
+        padding-right: 0;
+        border-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .section-container {
+        display: block;
+        width: 95%
+    }
+
+    .set-container {
+        margin-bottom: 0;
+    }
+    
+    .secondary-container {
+        height: 25vw;
+    }
+
+    .subtitle-work {
+        padding: 3%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .jumbo span {
+        display: none;
+    }
+
+    .subtitle-work {
+        padding: 1%;
+    }
+
+    .subtitle-work h3 {
+        font-size: 16px;
+    }
+
+    .subtitle-work p {
+        font-size: 12px;
+    }
+
+    .mobile-adjust {
+        margin-top: 10px;
+    }
+
+    .job-date {
+        width: 30%;
+    }
+
+    .job-desc cite, .job-desc p, .skills-column p {
+        margin-bottom: 10px;
+    }
+}
+/* End Media Queries */
