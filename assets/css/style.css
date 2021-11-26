@@ -192,16 +192,41 @@ nav a {
 /* End Contact Me */
 
 /* Start Resumé */
+#resume {
+    margin-bottom: 20px;
+}
+
 .resume-title {
     padding: 0.5% 0 0.5% 0;
-    border-bottom: 3px solid #445876;
+    border-bottom: 3px solid rgba(27, 35, 46, 0.5);
+    margin-bottom: 5px;
+}
+
+.job {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.job-date {
+    width: 15%;
 }
 
 .job-desc {
-    margin-bottom: 10px;
+    flex: 1;
 }
 
 #resume-main section div p {
     line-height: 1.25;
+}
+
+.skills-section {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.skills-column {
+    flex: 1;
 }
 /* End Resumé */
