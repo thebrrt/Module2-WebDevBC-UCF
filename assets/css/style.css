@@ -227,7 +227,7 @@ nav a {
 }
 /* End Resumé */
 
-/* Begin Media Queries */
+/* Start Media Queries */
 @media (max-width: 1024px) {
     nav {
         width: 100%;
