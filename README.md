@@ -1,5 +1,9 @@
 # Portfolio Project
 
+Project URL: https://thebrrt.github.io/Module2-WebDevBC-UCF/
+
+<img src="C:\Users\Albert\Documents\ShareX\Screenshots\2021-11\sidekick_2oRpSyoyvN.png" style="zoom:80%;" />
+
 ## User Story
 
 AS AN employer
@@ -10,7 +14,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 GIVEN I need to sample a potential employee's previous work
 	WHEN I load their portfolio
-	THEN I am presented with the developer's name, a recent photo or avatar, and links to sections 	about them, their work, and how to contact them
+	THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 
 ​	WHEN I click one of the links in the navigation
 ​	THEN the UI scrolls to the corresponding section
@@ -29,3 +33,22 @@ GIVEN I need to sample a potential employee's previous work
 
 ​	WHEN I resize the page or view the site on various screens and devices
 ​	THEN I am presented with a responsive layout that adapts to my viewport
+
+## Grading Requirements
+
+This challenge is graded based on the following criteria:
+
+1. Technical Acceptance Criteria: 40%
+   * Satisfies all of the preceding acceptance criteria
+2. Deployment: 32%
+   * Application deployed at live URL
+   * Application loads with no errors
+   * Application GitHub URL submitted
+   * GitHub repository contains application code
+3. Application Quality: 15%
+   * Application resembles the mock-up functionality provided in the Challenge instructions
+4. Repository Quality: 13%
+   * Repository has a unique name
+   * Repository follows best practices for file structure and naming conventions
+   * Repository contains multiple descriptive commit messages
+   * Repository contains quality readme with description, screenshot, link to deployed application

@@ -10,11 +10,15 @@ body {
     background-color: #EDEEF6;
     height: auto;
 }
+
+html {
+    overflow-x: hidden;
+}
 /* End User Agent Reset */
 
 /* Start Utility Rules */
 .section-container {
-    margin: 0 auto;
+    margin: 2% auto 0;
     width: 80%;
     display: flex;
     color: #445876;
@@ -38,6 +42,12 @@ body {
 
 .set-column {
     width: 49%;
+}
+
+.main-container {
+    width: 97.5%;
+    margin: 0 0 10px 2.5%;
+    flex: 1;
 }
 /* End Utility Rules */
 
@@ -101,14 +111,10 @@ nav a {
 /* End Jumbotron/Banner */
 
 /* Start About Me */
-.text-container {
-    flex: 1;
-}
 
 .text-container p {
     line-height: 1.5;
     margin-bottom: 10px;
-    padding-left: 2.5%;
 }
 /* End About Me */
 
@@ -116,16 +122,14 @@ nav a {
 #work {
     margin-top: 2%;
 }
-#work section {
+#work main {
     flex: 1;
 }
 
 #main-container {
-    border:5px solid #92CCCD;
-    height: 30vw;
-    width: 97.5%;
-    margin: 0 0 20px 2.5%;
     position: relative;
+    height: 30vw;
+    border:5px solid #92CCCD;
 }
 
 #main {
@@ -168,3 +172,36 @@ nav a {
 .secondary:hover {
     opacity: 1;
 }
+/* End Work */
+
+/* Start Contact Me */
+#contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#contact-info a {
+    color: #445876;
+    font-weight: bold;
+    border-bottom: 3px solid;
+    padding: 0 0.5% 0.5%;
+    text-decoration: none;
+}
+/* End Contact Me */
+
+/* Start Resumé */
+.resume-title {
+    padding: 0.5% 0 0.5% 0;
+    border-bottom: 3px solid #445876;
+}
+
+.job-desc {
+    margin-bottom: 10px;
+}
+
+#resume-main section div p {
+    line-height: 1.25;
+}
+/* End Resumé */
